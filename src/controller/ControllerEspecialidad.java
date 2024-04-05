@@ -18,6 +18,7 @@ public class ControllerEspecialidad {
         objEspecialidad.setNombre(nombre);
         objEspecialidad.setDescripcion(descripcion);
 
+
         objModelEspecialidad.create(objEspecialidad);
 
     }
