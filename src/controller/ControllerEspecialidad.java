@@ -11,6 +11,7 @@ public class ControllerEspecialidad {
         ModelEspecialidad objModelEspecialidad = new ModelEspecialidad();
 
 
+
         String nombre = JOptionPane.showInputDialog("Ingresa el nombre de la especialidad");
         String descripcion = JOptionPane.showInputDialog("Ingresa la descripción");
         Especialidad objEspecialidad = new Especialidad();
